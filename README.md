@@ -1,6 +1,8 @@
 # magisterka
 This repository is part of my Master's thesis and contains code used in it.
 
+Old models were generated using orginal scripts with default parameters or parameters provided in _parameters.txt files in /model directory.
+
 This repository uses orginal and modified code from following publications:
 # References
 1. DeePromoter
