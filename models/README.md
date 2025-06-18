@@ -1,1 +1,1 @@
-Directory with _parametes.txt file for all RegSeqNet models and newly trained models.
+Directory with _params.txt files for all RegSeqNet models and loss/AUC for newly trained models.
