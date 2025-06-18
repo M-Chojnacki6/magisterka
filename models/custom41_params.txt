@@ -1,0 +1,30 @@
+Name of the analysis: custom41
+Network type: custom
+Network params:
+	input sequence length: 2000
+	convolutional layers: 3
+	fully connected: 2
+	number of channels: 300, 200, 200
+	kernels widths: 19, 11, 7
+	pooling widths: 3, 4, 4
+	units in fc: 2000, 4
+Possible classes: 
+	promoter active
+	nonpromoter active
+	promoter inactive
+	nonpromoter inactive
+Number of epochs: 400
+Number of seqs: 25668 + 10821 + 3511
+Batch size: 64
+Training chr: 3-4, 7-12, 14-16, 18-20, 22-23
+Validation chr: 1-2, 5-6
+Test chr: 13, 17, 21
+Data directory: 
+	/home/marni/magisterka/data/dataset3
+Random seed: 0
+CUDA available: True
+Optimizer: RMSprop
+Loss function: CrossEntropyLoss
+Learning rate: 0.01
+Adjusting lr: True
+Weight decay: 0.0001

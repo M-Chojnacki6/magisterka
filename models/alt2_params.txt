@@ -1,0 +1,35 @@
+Name of the analysis: alt2
+Network type: custom
+Network params:
+	input sequence length: 2000
+	convolutional layers: 3
+	fully connected: 2
+	number of channels: 300, 200, 200
+	kernels widths: 19, 11, 7
+	pooling widths: 3, 4, 4
+	units in fc: 2000, 4
+	dropout: 0.5
+Possible classes: 
+	promoter active
+	nonpromoter active
+	promoter inactive
+	nonpromoter inactive
+Number of epochs: 500
+Number of seqs: 127565 + 24293 + 8125
+Batch size: 64
+Training seqs: 1-16
+Validation seqs: 17-20
+Test seqs: 21-23
+Data directory: 
+	/home/marni/magisterka/data/dataset_alt_40k/alt_promoter_inactive_40k
+	/home/marni/magisterka/data/dataset_alt_40k/alt_nonpromoter_inactive_40k
+	/home/marni/magisterka/data/dataset_alt_40k/alt_promoter_active_40k
+	/home/marni/magisterka/data/dataset_alt_40k/alt_nonpromoter_active_40k
+Random seed: 0
+CUDA available: True
+Optimizer: RMSprop
+Loss function: CrossEntropyLoss
+Learning rate: 0.001
+Adjusting lr: True
+Weight decay: 0.0001
+Retraining: /home/marni/magisterka/results/custom40/custom40_last.model
