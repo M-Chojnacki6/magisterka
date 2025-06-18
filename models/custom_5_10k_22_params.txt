@@ -1,0 +1,34 @@
+Name of the analysis: custom_5_10k_22
+Network type: custom
+Network params:
+	input sequence length: 2000
+	convolutional layers: 3
+	fully connected: 2
+	number of channels: 300, 200, 200
+	kernels widths: 19, 11, 7
+	pooling widths: 3, 4, 4
+	units in fc: 2000, 5
+	dropout: 0.5
+Possible classes: 
+	promoter active
+	nonpromoter active
+	promoter inactive
+	nonpromoter inactive
+	random
+Number of epochs: 300
+Number of seqs: 39109 + 7379 + 3512
+Batch size: 64
+Training seqs: 1-16
+Validation seqs: 17-20
+Test seqs: 21-23
+Data directory: 
+	data/10k
+Random seed: 22
+CUDA available: True
+Optimizer: RMSprop
+Loss function: CrossEntropyLoss
+Learning rate: 0.001
+Adjusting lr: True
+Weight decay: 0.0001
+Momentum: 0.1
+Retraining: None
