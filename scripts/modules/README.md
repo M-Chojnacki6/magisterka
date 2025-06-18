@@ -1,1 +1,1 @@
-[Source](https://github.com/egochao/DeePromoter)
+[Source](https://github.com/egochao/DeePromoter) - DeePromoter github.
